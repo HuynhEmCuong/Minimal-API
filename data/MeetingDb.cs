@@ -6,6 +6,7 @@ class MeetingDb : DbContext
 
     public DbSet<Meeting> Meetings { get; set; }
 
+    //Add Table in Sql 
     public DbSet<Attendee> Attendees { get; set; }
 
     override protected void OnModelCreating(ModelBuilder modelBuilder)
